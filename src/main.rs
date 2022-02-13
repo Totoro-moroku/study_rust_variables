@@ -1,12 +1,9 @@
 fn main() {
-    let mut x = 5;
-    println!("The value x is: {}", x);
+    let x = 5;
 
-    x = 6;
+    let x = x + 1;
 
-    println!("The value x is: {}", x);
+    let x = x + 2;
 
-    const MAX_POINT: u32 = 100_000;
-
-    println!("The value MAX_POINT is : {}", MAX_POINT)
+    println!("The value of x is : {}", x)
 }
